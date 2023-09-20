@@ -1,0 +1,29 @@
+/* Speech class for spoken text */
+.speech {
+    font-family: Arial, sans-serif; font-size: 16px; color: black; }
+  
+  /* Direction class for non-spoken directions */
+  .direction  { font-family: Times New Roman, serif; font-size: 14px; color: black; 
+    background-color: #9f7f99; /* Light background color for directions */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+  }
+  
+  /* Hover effect for the direction class */
+  .direction:hover { background-color: #77b0b9; /* Change background color on hover */
+    color: rgb(98, 114, 33); /* Change text color on hover */
+  }
+
+  /* Character-specific styles */
+.Hovstad {
+    color: #3366cc; /* Specify a color for Hovstad name */
+  }
+  
+  .Billing {
+    color: #ff9900; /* Specify a color for Billing name */
+  }
+  
+  .Stockmann {
+    color: #459620; /* Specify a color for Dr.Stockmann. name */
+  }
+
+  class="Stockmann"
