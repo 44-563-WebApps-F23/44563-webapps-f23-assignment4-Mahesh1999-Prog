@@ -26,4 +26,34 @@
     color: #459620; /* Specify a color for Dr.Stockmann. name */
   }
 
-  class="Stockmann"
+  .Aslaksen {
+    color: #9d0b1f; /* Specify a color for Dr.Stockmann. name */
+  }
+
+  /* Style for the character table */
+.character-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .character-table th, .character-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .character-table th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .character-table tbody tr:nth-child(odd) {
+    background-color: #8477af1e; /* Row stripes for odd rows */
+  }
+  
+  .character-table tbody tr:hover {
+    background-color: #4591b7; /* Highlight on hover */
+  }
+  
