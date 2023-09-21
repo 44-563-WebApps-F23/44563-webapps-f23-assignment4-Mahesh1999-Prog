@@ -64,3 +64,22 @@
   .name:hover { background-color: #77b9b2; /* Change background color on hover */
         color: rgb(114, 69, 33); /* Change text color on hover */
   }
+
+  /* Style for the horizontal navbar */
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    text-align: center;
+    padding: 10px 0; /* Add spacing around the icons */
+  }
+  
+  .navbar a {
+    display: inline-block;
+    margin: 0 20px; /* Add spacing between icons */
+    text-decoration: none;
+    color: #fff; /* Text color for the links */
+  }
+  
+  .navbar a img {
+    width: 40px; /* Adjust the width of the icons as needed */
+    height: 40px; /* Adjust the height of the icons as needed */
+  }
