@@ -3,11 +3,15 @@
     font-family: Arial, sans-serif; font-size: 16px; color: black; }
   
   /* Direction class for non-spoken directions */
-  .direction  { font-family: Times New Roman, serif; font-size: 14px; color: black; 
+  .direction  { font-family: 'Courier New'; font-size: 14px; color: black; 
     background-color: #9f7f99; /* Light background color for directions */
     transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
   }
   
+  .name:hover { background-color: #77b9b2; /* Change background color on hover */
+    color: rgb(114, 69, 33); /* Change text color on hover */
+    filter:blur(0.5px);
+ }
   /* Hover effect for the direction class */
   .direction:hover { background-color: #77b0b9; /* Change background color on hover */
     color: rgb(98, 114, 33); /* Change text color on hover */
@@ -35,7 +39,7 @@
     border-collapse: collapse;
     width: 100%;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
   }
   
   .character-table th, .character-table td {
@@ -61,9 +65,7 @@
     color: #14c5b0dc; /* Specify a color for Dr.Stockmann. name */
   }
 
-  .name:hover { background-color: #77b9b2; /* Change background color on hover */
-        color: rgb(114, 69, 33); /* Change text color on hover */
-  }
+  
 
   /* Style for the horizontal navbar */
 .navbar {
@@ -79,7 +81,4 @@
     color: #fff; /* Text color for the links */
   }
   
-  .direction a img {
-    width: 50px; /* Adjust the width of the icons as needed */
-    height: 50px; /* Adjust the height of the icons as needed */
-  }
+  
