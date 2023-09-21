@@ -67,7 +67,7 @@
 
   /* Style for the horizontal navbar */
 .navbar {
-    background-color: #333; /* Background color for the navbar */
+    background-color: #93b097; /* Background color for the navbar */
     text-align: center;
     padding: 10px 0; /* Add spacing around the icons */
   }
@@ -79,7 +79,7 @@
     color: #fff; /* Text color for the links */
   }
   
-  .navbar a img {
-    width: 40px; /* Adjust the width of the icons as needed */
-    height: 40px; /* Adjust the height of the icons as needed */
+  .direction a img {
+    width: 50px; /* Adjust the width of the icons as needed */
+    height: 50px; /* Adjust the height of the icons as needed */
   }
