@@ -60,3 +60,7 @@
   .Peter {
     color: #14c5b0dc; /* Specify a color for Dr.Stockmann. name */
   }
+
+  .name:hover { background-color: #77b9b2; /* Change background color on hover */
+        color: rgb(114, 69, 33); /* Change text color on hover */
+  }
